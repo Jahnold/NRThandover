@@ -1,0 +1,195 @@
+
+
+/* ==========================================================================
+   Author's custom styles
+   ========================================================================== */
+
+/*.btn {*/
+    /*margin-right: 7px;*/
+/*}*/
+.btn-group>.btn {
+    margin-right: 0;
+}
+/*body.modal-open, .modal-open .navbar-fixed-top, .modal-open .navbar-fixed-bottom {*/
+    /*margin-right:0;*/
+/*}*/
+.modal {
+    overflow-y: scroll;
+}
+body {
+    overflow-y: scroll;
+}
+.bg-danger {
+    background-color: #f2dede;
+}
+.form-control.error {
+    background-color: #f2dede;
+}
+#forgot-password {
+    margin-right: 10px;
+}
+#sign-in-button {
+    margin-left: 10px;
+}
+.bootstrap-tagsinput {
+    width: 100%;
+    margin-bottom: 0;
+}
+.panel-collapse>.list-group .list-group-item {
+    border-width: 1px 0;
+    border-radius: 0;
+}
+.panel-collapse>.list-group {
+    margin-bottom: 0;
+}
+.list-group-item:last-child {
+    border-bottom: none;
+}
+.opacity35 {
+    opacity: 0.35;
+}
+.panel-heading>.label {
+    margin-right: 10px;
+    padding-top: 5px;
+    padding-bottom: 4px ;
+}
+.label {
+    cursor: default;
+}
+.label-button {
+    color: #333;
+    background-color: #ffffff;
+}
+.panel-default {
+    border-color: #bbb;
+}
+.modal-title {
+    text-transform: capitalize;     /* changes the title of modal dialogs to Title Case */
+}
+.div-inline {
+    display: inline;
+}
+#filters .panel {
+    overflow: visible;              /* stops the dropdown for the tags filter being hidden */
+}
+#filter-end-date {
+    padding-top: 16px;
+    padding-bottom: 16px;
+    border-right: none;
+}
+#filter-start-date {
+    padding-top: 16px;
+    padding-bottom: 16px;
+}
+.filter-group {
+    margin-bottom: 6px;
+}
+.panel-heading.highlight {
+    background-color: #E6FFD8;
+}
+/* These are for the dropdown buttons on the filters */
+.input-group {
+    width: 100%;
+}
+.input-group-btn {
+    vertical-align: bottom;
+}
+.input-group>.bootstrap-tagsinput {
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+    border-right: none;
+    padding: 5px 6px;
+}
+/*For the Panel Carets*/
+
+.panel-heading .panel-toggle:before {
+    /* symbol for "opening" panels */
+    font-family: 'Glyphicons Halflings';
+    content: "\e114";
+    color: grey;
+    display: inline-block;                  /* stops the char being underlined */
+    margin-right: 4px;                      /* space between the caret and the text */
+
+}
+.panel-heading .panel-toggle.collapsed:before {
+    /* symbol for "collapsed" panels */
+    content: "\e080";
+}
+
+/*For the Tooltips*/
+
+.label-tooltip {
+    position: relative;
+    /*text-decoration: none;*/
+}
+.label-tooltip:hover:after {
+    content: attr(data-tooltip);
+    position: absolute;
+    bottom: 130%;
+    left: -90%;
+    background: black;
+    padding: 5px 5px;
+    color: white;
+    -webkit-border-radius: 2px;
+    -moz-border-radius   : 2px;
+    border-radius        : 2px;
+    white-space: nowrap;
+    opacity: 1;
+}
+.label-tooltip:hover:before {
+    content: "";
+    position: absolute;
+    width: 0;
+    height: 0;
+    border-top: 20px solid black;
+    border-left: 20px solid transparent;
+    border-right: 20px solid transparent;
+    opacity: 1;
+    left: -37%;
+    bottom: 100%;
+}
+
+/*Colours for the Regions and other labels*/
+.label-standard {
+    background-color: #f5f5f5;
+    border: 1px solid #bbb;
+    color: #333;
+}
+
+.label-wm, .label-1 {
+    background-color: #42A328;
+}
+.label-em, .label-2 {
+    background-color: #119DD1;
+}
+.label-nw, .label-3 {
+    background-color: #6638B9;
+}
+.label-ne, .label-4 {
+    background-color: #FFF8A8;
+    border: 1px solid #FFDD94;
+    color: #777;
+}
+.label-e, .label-5 {
+    background-color: #D476C2;
+}
+.label-sw, .label-6 {
+    background-color: #D6B35C;
+}
+.label-se, .label-7 {
+    background-color: #56B183;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
